@@ -1,0 +1,21 @@
+
+.input_container {
+    display: flex;
+    flex-direction: column;   
+    color: white;   
+    width: 100%;
+    font-family: var(--main-font);
+
+
+}
+
+.input {
+    background-color: var(--background-input);
+    color: white;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-family: var(--main-font);
+    padding: 0px 10px;
+}
+

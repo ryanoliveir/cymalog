@@ -1,0 +1,11 @@
+
+.button {
+    width: 172px;
+    height: 36px;
+    border: none;
+    background-color: var(--light-blue);
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    font-family: var(--main-font);
+}

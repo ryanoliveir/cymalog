@@ -1,6 +1,8 @@
 
 .home {
+    display: flex;
     height: 100vh;    
-    background-color: var(--background);
+    background-color: white;
     color: white;
+    box-sizing: border-box;
 }

@@ -32,7 +32,7 @@ const LoginForm = () => {
                   id="password"
                   onChanged={value => setPassword(value)}
                 />
-                <Button label="Entrar" type="submit"/>
+                <Button label="Entrar" type="submit" />
             </form>
 
             <div className={styles.links}>

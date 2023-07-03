@@ -1,10 +1,10 @@
 import styles from './Home.module.css'
-
+import Sidebar from 'components/Sidebar';
 
 const Home = () => {
     return (
         <div className={styles.home}>
-            <h1>Home</h1>
+            <Sidebar />
         </div>
     )
 }

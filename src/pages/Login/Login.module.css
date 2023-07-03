@@ -13,3 +13,16 @@ img {
     margin-top: 40px;
     
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .login {
+       padding: 40px;
+    }
+
+    .login img {
+        width: 90%;
+    }
+}

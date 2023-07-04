@@ -1,6 +1,5 @@
 import styles from './Users.module.css'
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
 import Sidebar from 'components/Sidebar';
 import Banner from 'components/Banner';
 import UserCard from 'components/UserCard';
@@ -8,7 +7,6 @@ import UserCard from 'components/UserCard';
 const Users = () => {
 
     const [ users, setUsers] = useState([]);
-    const navigate = useNavigate();
 
     useEffect(() => {
         const URL = 'http://localhost:3000/users';

@@ -10,7 +10,7 @@ import { IoLogoBuffer }from 'react-icons/io'
 import { BsFillBoxFill } from 'react-icons/bs'
 const Sidebar = () => {
 
-    const [ showSideBar, setShowSideBar] = useState(true);
+    const [ showSideBar, setShowSideBar] = useState(false);
 
 
     return (
@@ -29,11 +29,11 @@ const Sidebar = () => {
                     <ul className={showSideBar ? styles.navlinks : styles.navlinks_close }>
                         <li>
                             <BiHomeAlt size="25" />
-                            <Link>Home</Link>
+                            <Link to="/home">Home</Link>
                         </li>
                         <li>
                             <FiUsers size="25" />
-                            <Link>Users</Link>
+                            <Link to="/users">Users</Link>
                         </li>
                         <li>
                             <IoLogoBuffer size="25"  />

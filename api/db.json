@@ -1,0 +1,330 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "fullName": "John Doe",
+            "email": "john.doe@example.com",
+            "password": "e2f28db343f7f328adfb2d8659eefbc3"
+        },
+        {
+            "id": 2,
+            "fullName": "Jane Smith",
+            "email": "jane.smith@example.com",
+            "password": "6a6b64fe02530a7b9878b99513d3d663"
+        },
+        {
+            "id": 3,
+            "fullName": "Alex Johnson",
+            "email": "alex.johnson@example.com",
+            "password": "ac48d7c7ad0b03ad498d0c9c41abf827"
+        },
+        {
+            "id": 4,
+            "fullName": "Sarah Williams",
+            "email": "sarah.williams@example.com",
+            "password": "e15ae6a4fc3442a7fcb36216510ab75f"
+        },
+        {
+            "id": 5,
+            "fullName": "Michael Brown",
+            "email": "michael.brown@example.com",
+            "password": "0d604f8d3d36499eac2c96d768b3b4b1"
+        },
+        {
+            "id": 6,
+            "fullName": "Emily Davis",
+            "email": "emily.davis@example.com",
+            "password": "22cbe24f7a1f767e5dd8b73f2baf41ad"
+        },
+        {
+            "id": 7,
+            "fullName": "Daniel Wilson",
+            "email": "daniel.wilson@example.com",
+            "password": "0a9872e3091b9b3e63123ed8d8cb47e4"
+        },
+        {
+            "id": 8,
+            "fullName": "Olivia Anderson",
+            "email": "olivia.anderson@example.com",
+            "password": "b785ca2565b3ab4a2f2d9e1b4abf567d"
+        },
+        {
+            "id": 9,
+            "fullName": "Matthew Taylor",
+            "email": "matthew.taylor@example.com",
+            "password": "be0bea986e2e75bdcf97281c1bb3540a"
+        },
+        {
+            "id": 10,
+            "fullName": "Ava Thomas",
+            "email": "ava.thomas@example.com",
+            "password": "64a0b935c0b99c8a27b3f9dbf502b974"
+        }
+    ],
+    "logs": [
+        {
+            "id": 1,
+            "title": "Users"
+        }
+    ],
+    "products": [
+        
+        {
+            "id": 1,
+            "dsMarca": "Baden Baden",
+            "dsNome": "Baden Baden Witbier",
+            "dsDescricao": "Cerveja não filtrada de trigo, leve e refrescante, que equilibra aromas cítricos e picantes que remetem a laranja e sementes de coentro.",
+            "nrSKU": "7898230715213,7898230716630",
+            "dsAmargor": "baixo",
+            "dsFrutado": "alto",
+            "dsCitrico": "alto",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Peixe; Mar; Queijo",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Witbier",
+            "dsABV": "4.90%",
+            "dsIBU": "11"
+        },
+        {
+            "id": 3,
+            "dsMarca": "Baden Baden",
+            "dsNome": "Baden Baden Ipa",
+            "dsDescricao": "Cerveja que equilibra o amargor do lúpulo com o intenso aroma e sabor cítricos provenientes do lúpulo e adição de suco de maracujá.",
+            "nrSKU": "7898230715558,7898230716654",
+            "dsAmargor": "alto",
+            "dsFrutado": "alto",
+            "dsCitrico": "alto",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Bovina; Suina; Pizzas",
+            "dsFamilia": "Ale",
+            "dsEstilo": "American Ipa",
+            "dsABV": "6.40%",
+            "dsIBU": "33"
+        },
+        {
+            "id": 5,
+            "dsMarca": "Baden Baden",
+            "dsNome": "Baden Baden Cristal",
+            "dsDescricao": "É uma pilsen saborosa, leve e refrescante, com aroma floral do lúpulo e leve dulçor dos maltes especiais.",
+            "nrSKU": "7898230710102,7898230716616",
+            "dsAmargor": "baixo",
+            "dsFrutado": "medio",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Bovina; Suina; Frango; Peixe; Massas; Queijo",
+            "dsFamilia": "Larger",
+            "dsEstilo": "Pilsen",
+            "dsABV": "5.00%",
+            "dsIBU": "10"
+        },
+        {
+            "id": 7,
+            "dsMarca": "Baden Baden",
+            "dsNome": "Baden Baden Golden",
+            "dsDescricao": "Cerveja sofisticada, com leveza e dulçor que se traduzem nos aromas e sabores intensos de frutas vermelhas, canela e especiarias.",
+            "nrSKU": "7898230710201,7898230716807,7898230716784",
+            "dsAmargor": "baixo",
+            "dsFrutado": "alto",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Bovina; Suina; Condimentos; Queijo; Doces",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Golden",
+            "dsABV": "4.50%",
+            "dsIBU": "10"
+        },
+        {
+            "id": 9,
+            "dsMarca": "Lagunitas",
+            "dsNome": "Lagunitas",
+            "dsDescricao": "Cítrica, com alta concentração e aroma de lúpulo, equilíbrio entre amargor  e dulçor.",
+            "nrSKU": "7896045506187,7896045506682",
+            "dsAmargor": "alto",
+            "dsFrutado": "alto",
+            "dsCitrico": "alto",
+            "dsCor": "ESCURA",
+            "arrHarmonizacao": "Burguer; Pizzas; Condimentos; Queijo",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Indian Pale Ale",
+            "dsABV": "6.20%",
+            "dsIBU": "52"
+        },
+        {
+            "id": 11,
+            "dsMarca": "Eisenbahn",
+            "dsNome": "Eisenbahn Pilsen",
+            "dsDescricao": "As cervejas pilsen são as mais consumidas  do mundo. Em geral possuem cor douradas  e são extremamente leves e refrescantes. Oferecem a suavidade do puro malte  de cevada e o leve amargor  do lúpulo.",
+            "nrSKU": "7898367984285,7898367983790",
+            "dsAmargor": "baixo",
+            "dsFrutado": "baixo",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Bovina; Suina; Frango; Burguer; Massas; Embutidos",
+            "dsFamilia": "Larger",
+            "dsEstilo": "Pilsen",
+            "dsABV": "4.80%",
+            "dsIBU": "10"
+        },
+        {
+            "id": 13,
+            "dsMarca": "Eisenbahn",
+            "dsNome": "Eisenbahn Pale Ale",
+            "dsDescricao": "Esta cerveja segue o estilo das Pales Ales Belgas. No aroma apresenta notas maltadas e frutadas com breve influência do lúpulo, passando por sabores que lembram caramelo e biscoito, juntamente com um leve amargor do lúpulo. O corpo é leve-médio. Zero concervantes ou estabilizantes.",
+            "nrSKU": "7898367980034,7898367984070",
+            "dsAmargor": "medio",
+            "dsFrutado": "alto",
+            "dsCitrico": "medio",
+            "dsCor": "ESCURA",
+            "arrHarmonizacao": "Bovina; Suina; Frango; Burguer; Massas; Embutidos; Queijo",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Pale Ale",
+            "dsABV": "4.80%",
+            "dsIBU": "23"
+        },
+        {
+            "id": 15,
+            "dsMarca": "Eisenbahn",
+            "dsNome": "Eisenbahn American Ipa",
+            "dsDescricao": "Esta cerveja de coloração acobreada, com aroma cítrico e frutado, no sabor o amargor dos lúpulos estão presentes seguindo pelo dulçor dos maltes. Zero conservantes ou estabilizantes.",
+            "nrSKU": "7898367983813,7898367984056",
+            "dsAmargor": "alto",
+            "dsFrutado": "alto",
+            "dsCitrico": "alto",
+            "dsCor": "ESCURA",
+            "arrHarmonizacao": "Bovina; Suina; Burguer; Pizzas; Condimentos; Queijo",
+            "dsFamilia": "Ale",
+            "dsEstilo": "American Ipa",
+            "dsABV": "6.90%",
+            "dsIBU": "40"
+        },
+        {
+            "id": 16,
+            "dsMarca": "Eisenbahn",
+            "dsNome": "Eisenbahn Weizenbier",
+            "dsDescricao": "Esta é clássica cerveja de trigo típica do sul da alemanha- Baviera. Possui sabor um pouco mais doce, mas é muito equilibrada. Seus aromas e sabores lembram banana e cravo devido ao tipo de fermento usado na sua receita. É uma cerveja não filtrada, por isso tem aparência turva. Tem baixo teor alcoólico e baixo amargor. Zero concervantes ou estabilizantes.",
+            "nrSKU": "7898367980324,7898367980041",
+            "dsAmargor": "baixo",
+            "dsFrutado": "alto",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Suina; Frango; Peixe; Mar; Burguer; Embutidos; Condimentos; Queijo; Doces",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Wiezenbier",
+            "dsABV": "5.00%",
+            "dsIBU": "10"
+        },
+        {
+            "id": 17,
+            "dsMarca": "Blue Moon",
+            "dsNome": "Blue Moon",
+            "dsDescricao": "Cerveja craft produzida com cevada trigo, semente de coentro e laranja da variedade norte americana valência, que fica ainda mais especial no ritual de servir colocando uma rodela de laranja.",
+            "nrSKU": "7896045506514,7898235981170,7896045506507",
+            "dsAmargor": "baixo",
+            "dsFrutado": "alto",
+            "dsCitrico": "alto",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Frango; Peixe; Mar; Condimentos; Queijo",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Wheat Beer",
+            "dsABV": "5.40%",
+            "dsIBU": "9"
+        },
+        {
+            "id": 18,
+            "dsMarca": "Eisenbahn",
+            "dsNome": "Session IPA",
+            "dsDescricao": "Cerveja leve e cítrica, a Session IPA traz um frescor ao paladar, mesmo com amargor e aroma de lúpulo bem presentes. A versão mais suave da American IPA é ideal para se iniciar nas cervejas ale.",
+            "nrSKU": "7898367984254",
+            "dsAmargor": "alto",
+            "dsFrutado": "medio",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Peixe; Frango; Bovina",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Session IPA",
+            "dsABV": "4,6%",
+            "dsIBU": "45"
+        },
+        {
+            "id": 19,
+            "dsMarca": "Eisenbahn",
+            "dsNome": "Ulfiltered",
+            "dsDescricao": " Refrescante e ao mesmo tempo fácil de beber. A nossa versão não filtrada da cerveja Pilsen, que é o detalhe que faz toda diferença no sabor.",
+            "nrSKU": "7898367984377,7898367984346,7898367984377",
+            "dsAmargor": "baixo",
+            "dsFrutado": "medio",
+            "dsCitrico": "medio",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Peixe; Embutidos; Mar",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Pilsen Não Filtrada",
+            "dsABV": "4,8%",
+            "dsIBU": "11"
+        },
+        {
+            "id": 20,
+            "dsMarca": "Baden Baden",
+            "dsNome": "Baden Peach",
+            "dsDescricao": "Uma cerveja de trigo não filtrada que apresenta delicados aromas e sabores de pêssego, proporcionando uma intensa sensação de refrescância ao paladar.",
+            "nrSKU": "7898230716753,7898230716722",
+            "dsAmargor": "baixo",
+            "dsFrutado": "alto",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Queijo; Peixe; Mar",
+            "dsFamilia": "Ale",
+            "dsEstilo": "German Weizen",
+            "dsABV": "4,9%",
+            "dsIBU": "10"
+        },
+        {
+            "id": 21,
+            "dsMarca": "Baden Baden",
+            "dsNome": "Baden Baden Bock",
+            "dsDescricao": "A Baden Baden Bock é uma cerveja escura de coloração castanha, aroma levemente tostado e sabor adocicado. Ideal para os dias mais frios.",
+            "nrSKU": "7898230716715",
+            "dsAmargor": "baixo",
+            "dsFrutado": "alto",
+            "dsCitrico": "baixo",
+            "dsCor": "ESCURA",
+            "arrHarmonizacao": "Bovina; Queijo; Condimentos; Suina",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Traditional Bock",
+            "dsABV": "6.5%",
+            "dsIBU": "10"
+        },
+        {
+            "id": 22,
+            "dsMarca": "Eisenbahn ",
+            "dsNome": "Vienna Lager",
+            "dsDescricao": "Eisenbahn Vienna Lager é uma cerveja puro malte que possui notas adocicadas e suavemente tostadas devido ao uso de 2 tipos de malte.",
+            "nrSKU": "7898367984339,7898367984315",
+            "dsAmargor": "baixo",
+            "dsFrutado": "baixo",
+            "dsCitrico": "baixo",
+            "dsCor": "CLARA",
+            "arrHarmonizacao": "Queijo; Frango",
+            "dsFamilia": "Ale",
+            "dsEstilo": "Vienna Lager",
+            "dsABV": "5.00%",
+            "dsIBU": "25"
+        },
+        {
+            "id": 23,
+            "dsMarca": "Eisenbahn ",
+            "dsNome": "American Ipa Puro Malte",
+            "dsDescricao": "Cerveja de estilo American India Pale Ale com coloração acobreada, aroma cítrico e frutado e gosto amargo, proveniente de doses extras de lúpulos americanos.",
+            "nrSKU": "7898367984056",
+            "dsAmargor": "alto",
+            "dsFrutado": "medio",
+            "dsCitrico": "baixo",
+            "dsCor": "ESCURA",
+            "arrHarmonizacao": "Bovina; Queijo",
+            "dsFamilia": "Ale",
+            "dsEstilo": "American India Pale Ale",
+            "dsABV": "6.9%",
+            "dsIBU": "40"
+        }
+
+    ]
+}

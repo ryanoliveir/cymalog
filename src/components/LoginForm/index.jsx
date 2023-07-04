@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { useState } from 'react'
 import styles from './LoginForm.module.css'
 import Input from 'components/Input'
@@ -9,9 +9,12 @@ const LoginForm = () => {
 
     const [ email, setEmail ] = useState('');
     const [ password, setPassword ] = useState('');
+    const navigate = useNavigate();
 
     const onSave = (event) => {
         event.preventDefault();
+        navigate('/home');
+
     }
 
     return (

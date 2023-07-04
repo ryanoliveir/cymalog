@@ -57,9 +57,6 @@
 }
 
 
-
-
-
 .navlinks {
     list-style-type: none;
     display: flex;
@@ -78,6 +75,22 @@
     text-decoration: none;
 }
 
+.navlinks_close {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    
+}
+
+.navlinks_close li a {
+    display: none;
+}
+.navlinks_close li {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
 
 
 

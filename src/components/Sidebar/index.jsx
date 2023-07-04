@@ -26,7 +26,7 @@ const Sidebar = () => {
                 </div>
 
                 <div className={styles.navlinks_container}>
-                    <ul className={styles.navlinks}>
+                    <ul className={showSideBar ? styles.navlinks : styles.navlinks_close }>
                         <li>
                             <BiHomeAlt size="25" />
                             <Link>Home</Link>

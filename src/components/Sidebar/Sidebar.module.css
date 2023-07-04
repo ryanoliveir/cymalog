@@ -3,6 +3,8 @@
     height: 100%;
     width: 260px;
     position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
     left: 0;
     top: 0;
     display: flex;
@@ -20,6 +22,8 @@
     height: 100%;
     width: 70px;
     position: fixed;
+    z-index: 1;
+    overflow-x: hidden;
     left: 0;
     top: 0;
     display: flex;
